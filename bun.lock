@@ -19,6 +19,16 @@
         "typescript": "latest",
       },
     },
+    "packages/core": {
+      "name": "@pi/core",
+      "version": "0.1.0",
+      "devDependencies": {
+        "@biomejs/biome": "latest",
+        "@pi/configs": "workspace:*",
+        "typescript": "latest",
+        "vitest": "latest",
+      },
+    },
     "packages/template": {
       "name": "@pi/template",
       "version": "0.1.0",
@@ -62,6 +72,8 @@
     "@oxc-project/types": ["@oxc-project/types@0.132.0", "", {}, "sha512-FESMOxil5Se014ui/Eq8fT5uHJo6nIRwH0PfJrZJXs6Gek3ZVFOrpUv3YIZT20m+extU98Hg1Ym72U58rlsxUQ=="],
 
     "@pi/configs": ["@pi/configs@workspace:packages/configs"],
+
+    "@pi/core": ["@pi/core@workspace:packages/core"],
 
     "@pi/template": ["@pi/template@workspace:packages/template"],
 
