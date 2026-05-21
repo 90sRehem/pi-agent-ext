@@ -1,0 +1,21 @@
+{
+  "name": "@pi/configs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tsconfig.base.json": "./tsconfig.base.json",
+    "./biome.json": "./biome.json"
+  },
+  "scripts": {
+    "build": "echo 'No build needed for configs'",
+    "test": "echo 'No tests for configs'",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "typecheck": "echo 'No typecheck for configs'"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "latest",
+    "typescript": "latest"
+  }
+}
